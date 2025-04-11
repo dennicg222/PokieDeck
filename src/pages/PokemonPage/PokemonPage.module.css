@@ -1,0 +1,20 @@
+.pokemon{
+    list-style-type: none;
+}
+
+body{
+    background-color: crimson;
+    color: yellow;
+}
+
+h2{
+    color: yellow;
+}
+
+ul>li{
+    color: yellow;
+}
+
+.div{
+    color: yellow;
+}
