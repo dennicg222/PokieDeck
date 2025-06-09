@@ -8,6 +8,11 @@ export default function PokemonDetail() {
     //params means the name will be passed in the url
     const { pokemonName } = useParams();
     const [sprites, setSprites] = useState({});
+    const [types, setTypes] = useState([]);
+    const [generation, setGeneration] = useState([]);
+    const [ability, setAbility] = useState([]);
+
+
 
 
     useEffect(() => {
@@ -15,6 +20,9 @@ export default function PokemonDetail() {
             .then((response) => {
                 setPokemonDet(response.data);
                 setSprites(response.data.sprites);
+                setTypes(response.data.types);
+                setGeneration(response.data.generation);
+                setAbility(response.data.abilities);
             })
     }, []); //call once when loaded
 
@@ -24,6 +32,8 @@ export default function PokemonDetail() {
             <h2>{pokemonName}</h2>
             <img src={sprites.front_default} alt="Pokemon image" />
             <p>{pokemonDet.height}</p>
+
+            h3
         </>
     )
 }

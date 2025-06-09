@@ -1,14 +1,16 @@
-import { useState } from 'react'
+
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 import PokemonPage from './pages/PokemonPage/PokemonPage'
 import AboutPage from './pages/AboutPage'
 import './App.css'
+import './App_Layout.css'
 import PokemonDetail from './assets/components/PokemonDetail'
 
-function App() {
+export default function App() {
   
 
   return (
+    
     <>
       <BrowserRouter>
         <nav>
@@ -33,4 +35,3 @@ function App() {
   )
 }
 
-export default App

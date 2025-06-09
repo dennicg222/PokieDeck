@@ -1,0 +1,45 @@
+
+#gens {
+    width: 100%;
+    padding: 2rem;
+    margin-top: 2rem;
+  }
+  
+  #gens table {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  #gens tr {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  #gens td {
+    padding: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    min-width: 120px;
+  }
+  
+  #gens td:hover {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+  }
+  
+  @media (max-width: 768px) {
+    #gens tr {
+      justify-content: center;
+    }
+    
+    #gens td {
+      text-align: center;
+      min-width: 150px;
+    }
+  }
