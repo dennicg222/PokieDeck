@@ -1,12 +1,16 @@
-# React + Vite
+PokieDeck 🎮✨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to PokieDeck, a fun and interactive web app designed to showcase Pokémon details. Whether you’re a Pokémon trainer or just getting started, this app allows you to explore Pokémon info with ease!
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features 🚀
+	🧩 Pokémon List: Browse all the Pokémon and get detailed information about each one.
+	🎲 Interactive Components: Filter and search for your favorite Pokémon using interactive features.
+	💾 React + Vite: Built with the latest tools for fast performance and modern development.
 
-## Expanding the ESLint configuration
+Technologies Used 🔧
+	React: A JavaScript library for building user interfaces.
+	Vite: A modern build tool that provides faster and leaner development.
+	CSS: For styling the app and giving it a clean and modern look.
+	PokéAPI: API used to retrieve Pokémon data.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
