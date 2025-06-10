@@ -1,5 +1,5 @@
 #root {
-  max-width: 1280px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -11,14 +11,13 @@
 }
 
 .logo {
-  height: 6em;
-  padding: 1.5em;
+  height: 5rem;
   will-change: filter;
   transition: all 300ms ease-in-out;
 }
 
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 2em #ff5300aa);
   animation: logo-spin 0.5s linear;
 }
 
@@ -42,7 +41,7 @@
 }
 
 .card {
-  padding: 2em;
+  padding: 2rem;
 }
 
 .read-the-docs {

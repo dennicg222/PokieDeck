@@ -25,12 +25,14 @@
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 8px;
     min-width: 120px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
   }
   
   #gens td:hover {
-    color: white;
-    background-color: rgba(255, 255, 255, 0.2);
-    transform: translateY(-2px);
+    background-color: rgba(255, 255, 255, 0.25);
+    transform: translateY(-3px);
   }
   
   @media (max-width: 768px) {
